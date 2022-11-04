@@ -1,34 +1,12 @@
 import "./home.scss"
+import Stories from "../../components/stories/Stories"
+// import Posts from "../../components/posts/Posts"
 
 const Home = () => {
     return (
         <div className="home">
-            <h1>Luke REALLY loves poop</h1>
-            <h1>Luke loves poop</h1>
-            <h1>Luke loves poop</h1>
-            <h1>Luke loves poop</h1>
-            <h1>Luke loves poop</h1>
-            <h1>Luke loves poop</h1>
-            <h1>Luke loves poop</h1>
-            <h1>Luke loves poop</h1>
-            <h1>Luke loves poop</h1>
-            <h1>Luke loves poop</h1>
-            <h1>Luke loves poop</h1>
-            <h1>Luke loves poop</h1>
-            <h1>Luke loves poop</h1>
-            <h1>Luke loves poop</h1>
-            <h1>Luke loves poop</h1>
-            <h1>Luke loves poop</h1>
-            <h1>Luke loves poop</h1>
-            <h1>Luke loves poop</h1>
-            <h1>Luke loves poop</h1>
-            <h1>Luke loves poop</h1>
-            <h1>Luke loves poop</h1>
-            <h1>Luke loves poop</h1>
-            <h1>Luke loves poop</h1>
-            <h1>Luke loves poop</h1>
-            <h1>Luke loves poop</h1>
-            <h1>Luke loves poop</h1>
+            <Stories />
+            {/* <Posts /> */}
             </div>
     )
 }
