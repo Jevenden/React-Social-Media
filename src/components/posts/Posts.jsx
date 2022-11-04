@@ -1,3 +1,4 @@
+import Post from "../post/Post"
 import "./posts.scss"
 
 const Posts = () => {
@@ -7,15 +8,15 @@ const Posts = () => {
             id: 1,
             name: "John Doe",
             userId: 1,
-            profilePic: "https://images.pexels.com/photos/8088489/pexels-photo-8088489.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            profilePic: "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1600",
             desc: "Lorem",
-            img: "https://images.pexels.com/photos/8088685/pexels-photo-8088685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            img: "https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
         },
         {
             id: 2,
-            name: "John Doe",
-            userId: 1,
-            profilePic: "https://images.pexels.com/photos/8088489/pexels-photo-8088489.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            name: "Jane Doe",
+            userId: 2,
+            profilePic: "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1600",
             desc: "Lorem so;ifa oasefh aopuefh awosif hawosfi hwaouef hwoasef howe"
         },
     ];
@@ -26,3 +27,5 @@ const Posts = () => {
         ))}
     </div>
 };
+
+export default Posts
