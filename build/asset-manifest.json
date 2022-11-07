@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-social-media/static/css/main.6b5f59ac.css",
-    "main.js": "/react-social-media/static/js/main.9b0614d9.js",
-    "static/js/787.d27432ca.chunk.js": "/react-social-media/static/js/787.d27432ca.chunk.js",
-    "index.html": "/react-social-media/index.html",
-    "main.6b5f59ac.css.map": "/react-social-media/static/css/main.6b5f59ac.css.map",
-    "main.9b0614d9.js.map": "/react-social-media/static/js/main.9b0614d9.js.map",
-    "787.d27432ca.chunk.js.map": "/react-social-media/static/js/787.d27432ca.chunk.js.map"
+    "main.css": "/Jevenden.github.io/react-social-media/static/css/main.6b5f59ac.css",
+    "main.js": "/Jevenden.github.io/react-social-media/static/js/main.62158f27.js",
+    "static/js/787.d27432ca.chunk.js": "/Jevenden.github.io/react-social-media/static/js/787.d27432ca.chunk.js",
+    "index.html": "/Jevenden.github.io/react-social-media/index.html",
+    "main.6b5f59ac.css.map": "/Jevenden.github.io/react-social-media/static/css/main.6b5f59ac.css.map",
+    "main.62158f27.js.map": "/Jevenden.github.io/react-social-media/static/js/main.62158f27.js.map",
+    "787.d27432ca.chunk.js.map": "/Jevenden.github.io/react-social-media/static/js/787.d27432ca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6b5f59ac.css",
-    "static/js/main.9b0614d9.js"
+    "static/js/main.62158f27.js"
   ]
 }
