@@ -6,7 +6,6 @@ import {
   Route,
   Outlet,
   Navigate,
-  HashRouter,
 } from "react-router-dom";
 import NavBar from "./components/navBar/NavBar";
 import LeftBar from "./components/leftBar/LeftBar";
@@ -26,7 +25,6 @@ function App() {
   const Layout = () => {
     return (
       <div className={`theme-${darkMode ? "dark" : "light"}`}>
-        <HashRouter basename="/">
           <NavBar />
           <div style={{ display: "flex" }}>
             <LeftBar />
@@ -35,7 +33,6 @@ function App() {
             </div>
             <RightBar />
           </div>
-        </HashRouter>
       </div>
     );
   };
