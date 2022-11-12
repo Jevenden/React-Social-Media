@@ -3,7 +3,7 @@ import Register from "./pages/register/Register";
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
+  HashRouter,
   Outlet,
   Navigate,
 } from "react-router-dom";
@@ -25,14 +25,14 @@ function App() {
   const Layout = () => {
     return (
       <div className={`theme-${darkMode ? "dark" : "light"}`}>
-          <NavBar />
-          <div style={{ display: "flex" }}>
-            <LeftBar />
-            <div style={{ flex: 6 }}>
-              <Outlet />
-            </div>
-            <RightBar />
+        <NavBar />
+        <div style={{ display: "flex" }}>
+          <LeftBar />
+          <div style={{ flex: 6 }}>
+            <Outlet />
           </div>
+          <RightBar />
+        </div>
       </div>
     );
   };
@@ -59,7 +59,7 @@ function App() {
           element: <Home />,
         },
         {
-          path: "/profil/:id",
+          path: "/profile/:id",
           element: <Profile />,
         },
       ],
@@ -76,7 +76,9 @@ function App() {
 
   return (
     <div>
-      <RouterProvider router={router} />
+      <HashRouter basename="/">
+        <RouterProvider router={router} />
+      </HashRouter>
     </div>
   );
 }
