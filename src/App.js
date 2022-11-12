@@ -6,6 +6,7 @@ import {
   Route,
   Outlet,
   Navigate,
+  HashRouter,
 } from "react-router-dom";
 import NavBar from "./components/navBar/NavBar";
 import LeftBar from "./components/leftBar/LeftBar";
